@@ -1,0 +1,77 @@
+
+#Curriculo{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-style: dashed;
+    border-color: dodgerblue;
+    background-color: black;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    width: 99%;
+    background-image:url(WhatsApp\ Image\ 2025-03-31\ at\ 10.59.05.jpeg);
+    background-size: 100%;
+}
+ul{
+    font-size: 18px;
+    list-style-type:upper-latin;
+    list-style-position: inside;
+    padding-left: 5px;
+}
+p{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block; 
+    
+}
+h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    border-style: dashed;
+    border-color: dodgerblue;
+    border-width: 3px;
+    box-sizing: border-box;
+}
+.pessoal{
+    font-size: 18px;
+    display: inline;
+    margin: auto;
+
+    
+}
+hr{
+    border-color: dodgerblue;
+    border-style: dashed;
+    border-width: 1px;
+}
+#Formação{
+    list-style-type:upper-roman;
+}
+/* mudanças na cor do link */
+a:link{
+    color:mediumaquamarine;
+}
+a:visited{
+    color: grey;
+}
+a:active{
+    background-color: purple;
+}
+a:hover{
+    background-color: black;
+}
+.perfil{
+    width: 150px;
+    padding-left: 300px;
+}

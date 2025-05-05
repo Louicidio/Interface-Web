@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desenvolvimento de Interfaces Web</title>
+    <link rel="stylesheet" href=estilo.css"">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav>
+            <ul>
+                <li><a href="#">INICIO</a> </li>
+                <li><a href="#">DECOMP</a> </li>
+                <li><a href="#">Unicentro</a> </li>
+
+            </ul>
+        </nav>
+        <div class="cabecalho-conteudo">
+            <h1>Interface Web</h1>
+            <p>Nosso conteúdo de aula</p>
+            </div class="cabecalho-conteudo">
+    </header class="cabecalho">
+    <main>
+        <section>
+            <article>
+                <header>
+                    <h2>Aula 01</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti officiis id voluptas
+                        labore porro voluptatibus, explicabo culpa dolore vel, ex maxime quam consequatur quia. Odit,
+                        veritatis? Suscipit hic ut odit magni fugiat natus repellat saepe? Sapiente explicabo ea a
+                        quidem officia laboriosam illo similique numquam accusamus, totam nesciunt tempora facilis nemo
+                        molestias, repellat sint voluptas harum dolorem corrupti repellendus ratione, in corporis amet.
+                        Perspiciatis asperiores iure animi ipsa. Praesentium provident voluptatibus, itaque, mollitia
+                        quibusdam in aperiam nesciunt rerum nihil similique minima sequi enim ipsam aliquam? Minima
+                        vitae, reiciendis deleniti enim nobis nam ex. Quod sint rerum nulla iusto, dolore, officia,
+                        reprehenderit voluptatem veniam ratione vitae doloribus fugiat eius! Ipsa doloremque unde
+                        nesciunt cum harum quia vero quo fuga saepe quam, libero a non, blanditiis sunt iusto corrupti
+                        hic nam rem magni. Officia repudiandae consequuntur similique est vitae. Laborum commodi
+                        temporibus nemo sit fuga? Quod dolores harum culpa consequatur modi?
+                    </p>
+                    <a href="#" class="btn">Saiba Mais</a>
+                </header>
+            </article>
+            <article>
+                <header>
+                    <h2>Aula 02</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti officiis id voluptas
+                        labore porro voluptatibus, explicabo culpa dolore vel, ex maxime quam consequatur quia. Odit,
+                        veritatis? Suscipit hic ut odit magni fugiat natus repellat saepe? Sapiente explicabo ea a
+                        quidem officia laboriosam illo similique numquam accusamus, totam nesciunt tempora facilis nemo
+                        molestias, repellat sint voluptas harum dolorem corrupti repellendus ratione, in corporis amet.
+                        Perspiciatis asperiores iure animi ipsa. Praesentium provident voluptatibus, itaque, mollitia
+                        quibusdam in aperiam nesciunt rerum nihil similique minima sequi enim ipsam aliquam? Minima
+                        vitae, reiciendis deleniti enim nobis nam ex. Quod sint rerum nulla iusto, dolore, officia,
+                        reprehenderit voluptatem veniam ratione vitae doloribus fugiat eius! Ipsa doloremque unde
+                        nesciunt cum harum quia vero quo fuga saepe quam, libero a non, blanditiis sunt iusto corrupti
+                        hic nam rem magni. Officia repudiandae consequuntur similique est vitae. Laborum commodi
+                        temporibus nemo sit fuga? Quod dolores harum culpa consequatur modi?
+                    </p>
+                    <a href="#" class="btn">Saiba Mais</a>
+                </header>
+            </article>
+            <article>
+                <header>
+                    <h2>Aula 03</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti officiis id voluptas
+                        labore porro voluptatibus, explicabo culpa dolore vel, ex maxime quam consequatur quia. Odit,
+                        veritatis? Suscipit hic ut odit magni fugiat natus repellat saepe? Sapiente explicabo ea a
+                        quidem officia laboriosam illo similique numquam accusamus, totam nesciunt tempora facilis nemo
+                        molestias, repellat sint voluptas harum dolorem corrupti repellendus ratione, in corporis amet.
+                        Perspiciatis asperiores iure animi ipsa. Praesentium provident voluptatibus, itaque, mollitia
+                        quibusdam in aperiam nesciunt rerum nihil similique minima sequi enim ipsam aliquam? Minima
+                        vitae, reiciendis deleniti enim nobis nam ex. Quod sint rerum nulla iusto, dolore, officia,
+                        reprehenderit voluptatem veniam ratione vitae doloribus fugiat eius! Ipsa doloremque unde
+                        nesciunt cum harum quia vero quo fuga saepe quam, libero a non, blanditiis sunt iusto corrupti
+                        hic nam rem magni. Officia repudiandae consequuntur similique est vitae. Laborum commodi
+                        temporibus nemo sit fuga? Quod dolores harum culpa consequatur modi?
+                    </p>
+                    <a href="#" class="btn">Saiba Mais</a>
+                </header>
+            </article>
+        </section>
+    </main>
+    <footer class="rodape">Departamento de Computação - Unicentro</footer>
+
+</body>
+
+</html>
+
+
+body {
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.cabecalho{
+    background-image: url(banner.png);
+    height: 400px;
+    padding: 1px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cabecalho-conteudo {
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+}
+
+.cabecalho-conteudo {
+    font-size: 56px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px black;
+}
+
+.cabecalho-conteudo {
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 50%;
+    padding: 14px;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cabecalho nav ul {
+    text-align: right;
+    margin: 20px 80px 0 0;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 16px;
+}
+
+.cabecalho nav a {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.cabecalho nav a {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 30px;
+    margin-top: 0
+}

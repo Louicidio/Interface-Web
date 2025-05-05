@@ -1,0 +1,25 @@
+
+#nome{
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+}
+ul{
+    font-size: 18px;
+}
+p{
+    font-size: 18px;
+}
+h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.pessoal{
+    font-size: 18px;
+}
+h1{
+    background-color: black;
+}
+#comodiminuiafonte{
+    font-size: 100px;
+}
