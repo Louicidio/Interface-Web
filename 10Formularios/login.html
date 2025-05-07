@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Busca</title>
+        <style>
+            html {
+                background-color: #95a5a6;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                min-height: 110vh;
+                margin: 0;
+            }
+            form {
+                width: 400px;
+                background-color: #ecf0f1;
+                border-radius: 5px;
+                box-shadow: 3px 3px 10px #333;
+            }
+            input,
+            label {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            label {
+                margin-bottom: 0.25em;
+            }
+            input {
+                padding: 0.75em;
+                border-radius: 5px;
+                border: 1px solid #bbb;
+                margin-bottom: 1.5em;
+                font-size: 1em;
+            }
+            fieldset {
+                border: none;
+            }
+            legend {
+                padding: 1em;
+                text-align: center;
+                font-weight: bold;
+                color: #454e4f;
+                font-size: 1.2em;
+            }
+            .btn {
+                background-color: #95a5a6;
+                cursor: pointer;
+                color: white;
+            }
+            .btn2 {
+                background-color: #fa8072;
+                color: white;
+                cursor: pointer;
+            }
+            .action {
+                display: flex;
+                gap: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Insira seus Dados</legend>
+                <label for="user">Usuario</label>
+                <input type="text" name="user" id="user" required />
+                <label for="pass">Senha</label>
+                <input type="password" name="pass" id="pass" required />
+                <div class="action">
+                    <input type="reset" value="Limpar" class="btn2" />
+                    <input type="submit" value="Entrar" class="btn" />
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
