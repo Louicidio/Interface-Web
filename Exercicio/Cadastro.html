@@ -3,15 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Cadastro</title>
         <link rel="stylesheet" href="cadastro.css" />
     </head>
     <body>
-        <form action="#">
+        <form action="#" class="cadastro">
         <fieldset>
             <legend>Cadastre-se</legend>
-            <legend></legend>
-            <label for="name">Usuario</label>
+            <fieldset class="campo2">
+            <label for="name" name="name">Usuario</label>
             <input
                 type="text"
                 name="name"
@@ -32,7 +32,11 @@
                 id="senha"
                 required
             />
-            <button type="submit">CADASTRE-SE</button>
+            <div class="btns">
+            </fieldset>
+            <button type="submit" class="btn1cadastro">CADASTRE-SE</button>
+            <span class="login">Ja possui Cadastro? <a href="#">Faça login</a></span>
+            </div>
         </fieldset>
         </form>
     </body>

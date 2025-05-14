@@ -1,34 +1,119 @@
-html{
-    background-color: black;
-    font-family: sans-serif;
+html {
+    background-color: #2563eb;
+    font-family: 'roboto', sans-serif;
 }
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
 }
-form{
+form {
     width: 90%;
     min-width: 28.125em;
     max-width: 35em;
     background-color: white;
+    box-shadow:-6px -3px 0px 0px #00000071;
+    padding-bottom: 1.5em;
+    border-radius: 0.2em;
 }
-fieldset{
+fieldset {
     border: none;
     margin: 0;
-    padding: 0;
+    padding: 2em 2em 0 2em;
 }
-label, input, textarea{
+.campo2 {
+    margin: 0;
+    padding: 0;
+    
+}
+.name {
+    padding-top: 0;
+}
+label,
+input,
+textarea {
     display: block;
     width: 90%;
-    padding: 2em;
+    padding-bottom: 2em;;
+    padding-top: 2em;
     text-transform: uppercase;
-    border-bottom: 2px solid #bbb;
+    font-size: 0.8em;
+}
 
-}
-legend{
+legend {
     font-size: 2em;
-    padding: .5em;
+    color: #0350c4;
+    padding-top: 2em;
 }
+input {
+    width: 100%;
+    padding: 0.8em 0.5em;
+    margin-bottom: 0.5em;
+    border: none;
+    border-bottom: #0267ff 2px solid;
+    background: transparent;
+}
+.btn1 {
+    background-color: #0267ff;
+    color: white;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.8em 0.5em;
+    margin-top: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+    width: 6em;
+    cursor: pointer;
+}
+.btn1cadastro {
+    background-color: #0267ff;
+    color: white;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.8em 0.5em;
+    margin-top: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+    width: 10em;
+    cursor: pointer;
+}
+.btn1cadastro:hover {
+    background-color: #045ca4;
+}
+.btn1:hover {
+    background-color: #045ca4;
+}
+.login {
+    text-align: center;
+    font-size: 0.8em;
+    margin-left: 11em;
+}
+.btn2{
+    background-color: #ffffff;
+    color: #045ca4;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.8em 0.5em;
+    margin-top: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+    width: 10em;
+    cursor: pointer;
+}
+div{
+    padding-bottom: 1em;
+}
+.btn2:hover {
+    background-color: #e0e0e0;
+}
+.fsenha{
+    margin-left: 4em;
+}
+input:focus{
+
+    outline: none;
+    border-bottom: 2px solid #010169;
+}
+
