@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Transformação</title>
+        <style>
+            div {
+                outline: 1px solid black;
+                width: 200px;
+                margin: 0.5em auto;
+            }
+            p {
+                width: 50%;
+            }
+            .destaque{
+                background-color:yellow;
+
+            }
+
+            .div1 .destaque{
+                transform: translate(50px, -50px);
+            }
+            .div2 .destaque{
+                transform: rotate(90deg);
+            }
+            .div3 .destaque{
+                transform: scale(2);
+            }
+            .div4 .destaque{
+                transform: skew(25deg);
+
+            }
+            .div5 .destaque{
+                transform: translate(50px, -50px) rotate(90deg); /* unica forma de usar 2 propriedades da classe */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aperiam!</p>
+            <p class="destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ex?0</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, doloremque!</p>
+        </div>
+        <div class="div2">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aperiam!</p>
+            <p class="destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ex?0</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, doloremque!</p>
+        </div>
+        <div class="div3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aperiam!</p>
+            <p class="destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ex?0</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, doloremque!</p>
+        </div>
+        <div class="div4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aperiam!</p>
+            <p class="destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ex?0</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, doloremque!</p>
+        </div>
+        <div class="div5">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aperiam!</p>
+            <p class="destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ex?0</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, doloremque!</p>
+        </div>
+        <div class="div6">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aperiam!</p>
+            <p class="destaque">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, ex?0</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, doloremque!</p>
+        </div>
+    </body>
+</html>
