@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="#">
+            <input type="text" id="txtNome" placeholder="Nome" /><br />
+            <input type="email" id="txtEmail" placeholder="Email" /><br />
+            <textarea cols="30" rows="10" readonly>
+texto do contrato...
+            </textarea
+            ><br />
+            <input type="checkbox" id="contrato" onchange="enableButton()" />
+            <label for="contrato">Li e aceito o Contrato.</label>
+            <input type="submit" value="cadastrar" />
+        </form>
+        <script>
+            const txtNome = document.querySelector("#txtNome");
+            const txtEmail = document.querySelector("#txtEmail");
+            const btn = document.querySelector("form input[type='submit']");
+            btn.disabled = true;
+            const contrato = document.querySelector("#contrato");
+            function enableButton() {
+                let checked = contrato.checked;
+                console.log(checked);
+                btn.disabled = !checked;
+                // if(checked) btn.disabled = false
+                // else btn.disabled = true
+                
+            }
+            // const labelContrato = document.querySelector("label[for='contrato']")
+            // console.log(labelContrato.htmlFor)
+            // txtNome.disabled = true;
+            // txtEmail.readOnly = true;
+            // txtNome.value = "Carlos"
+            // txtEmail.value = "teste@gmail.com"
+        </script>
+    </body>
+</html>
