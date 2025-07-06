@@ -1,0 +1,17 @@
+const { parse } = require("path");
+
+function quantoFaltaPara(m,d){
+    const dataAtual = new Date();
+    dataAtual.setHours(0, 0, 0, 0);
+    let anoAtual = dataAtual.getFullYear();
+    const dataNiver = new Date(anoAtual, m - 1, d);
+    const dataAtualTS = +dataAtual
+    let dataNiverTS = +dataNiver;
+    if(dataAtualTS > dataNiverTS){
+        dataNiver.setFullYear(++anoAtual);
+        dataNiverTS = +dataNiver;
+    }
+    const UM_DIA = 24 * 60 * 60 * 1000; 
+    const diferenca = dataNiverTS - dataAtualTS;
+    return parseInt(diferenca / UM_DIA);
+}

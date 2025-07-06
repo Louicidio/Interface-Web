@@ -1,0 +1,11 @@
+let str1 = "Desenvolvimento de interfaces web";
+console.log(str1.startsWith("Des"));
+console.log(str1.startsWith("des"));
+console.log(str1.endsWith("Web"));
+console.log(str1.endsWith("WEB"));
+console.log(str1.charAt(0));
+console.log(str1.charAt(15));
+console.log(str1.charAt(30));
+console.log(str1.charCodeAt(0));
+console.log(str1.charCodeAt(15));
+console.log(str1.charCodeAt(30));
