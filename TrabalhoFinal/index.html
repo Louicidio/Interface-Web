@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TrabalhoFinal</title>
+        <link rel="stylesheet" href="CSS/style.css" />
+        <script src="JS/script.js" defer></script>
+    </head>
+    <body>
+        <!-- barra inicial da pagina -->
+        <header>
+            <nav class="navbar-header">
+                <h1>Free Racers</h1>
+                <ul class="abas">
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#beneficios">BENEFICIOS</a></li>
+                    <li><a href="#carros">OFERTAS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+                <button id="dark-theme" class="theme-button">🌙</button>
+            </nav>
+        </header>
+
+        <!-- painel principal -->
+        <main class="main-content">
+            <section class="information">
+                <div class="information-text">
+                    <h2>Garanta já seu novo carro!!</h2>
+                    <p class="info-p">
+                        Compre carros com facilidade, segurança e rapidez
+                    </p>
+                    <a href="#contact" class="btn2">Saiba mais</a>
+                </div>
+                <div class="information-image">
+                    <img src="images/fundo4.png" class="carro-animado" />
+                </div>
+            </section>
+
+            <section class="carros" id="carros">
+                <h2>Carros em Destaque</h2>
+                <div class="carros-container">
+                    <div class="carros-grid">
+                        <div class="carro-card">
+                            <img src="images/carro1.jpg" />
+                            <h3>Porshe 718</h3>
+                            <p>Turbo 2.0L</p>
+                            <span class="valor">R$ 1.030.000</span>
+                        </div>
+                        <div class="carro-card">
+                            <img src="images/carro2.jpg" />
+                            <h3>Ferrari SF90</h3>
+                            <p>V8 Biturbo 4.0</p>
+                            <span class="valor">R$ 4.750.500</span>
+                        </div>
+                        <div class="carro-card">
+                            <img src="images/carro3.jpg" />
+                            <h3>Lamborghini Gallardo</h3>
+                            <p>V10 de 5.2L</p>
+                            <span class="valor">R$ 1.500.000</span>
+                        </div>
+                        <div class="carro-card">
+                            <img src="images/carro4.jpg" />
+                            <h3>Mercedes-Benz AMG GT63</h3>
+                            <p>V8 biturbo de 4.0L</p>
+                            <span class="valor">R$ 2.090.000</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="antigos">
+                <h2>Clássicos antigos</h2>
+                <div class="carros-grid">
+                    <div class="carro-card">
+                        <img src="images/carroantigo1.jpg" alt="Fusca 1972" />
+                        <h3>Corvette Stingray - 1978</h3>
+                        <p>V8 de 5.7L</p>
+                        <span class="valor">VENDIDO</span>
+                    </div>
+                    <div class="carro-card">
+                        <img
+                            src="images/carroantigo2.jpg"
+                            alt="Opala SS 1976"
+                        />
+                        <h3>Acura NSX - 1991</h3>
+                        <p>V6 VTEC de 3.0L</p>
+                        <span class="valor">VENDIDO</span>
+                    </div>
+                    <div class="carro-card">
+                        <img
+                            src="images/carroantigo3.jpg"
+                            alt="Chevette 1980"
+                        />
+                        <h3>Cadillac Eldorado - 1974</h3>
+                        <p>V8 de 8.2L</p>
+                        <span class="valor">R$ 290.000</span>
+                    </div>
+                    <div class="carro-card">
+                        <img src="images/carroantigo4.jpg" alt="Kombi 1975" />
+                        <h3>Porsche 911 - 1977</h3>
+                        <p>Flat‑6 de 2.7</p>
+                        <span class="valor">R$ 690.000</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="antigosbr">
+                <h2>Clássicos antigos Brasil</h2>
+                <div class="carros-grid">
+                    <div class="carro-card">
+                        <img src="images/carroantigobr1.jpg" />
+                        <h3>Kombi 2003</h3>
+                        <p>1.6L flat‑4</p>
+                        <span class="valor">R$ 135.000</span>
+                    </div>
+                    <div class="carro-card">
+                        <img src="images/carroantigobr2.jpg" />
+                        <h3>Brasilia - 1978</h3>
+                        <p>1.6L flat‑4</p>
+                        <span class="valor">R$ 79.000</span>
+                    </div>
+                    <div class="carro-card">
+                        <img src="images/carroantigobr3.jpg" />
+                        <h3>Fusca - 1962</h3>
+                        <p>1.2L flat‑4</p>
+                        <span class="valor">R$ 59.000</span>
+                    </div>
+                    <div class="carro-card">
+                        <img src="images/carroantigobr4.jpg" />
+                        <h3>Passat GTS - 1986</h3>
+                        <p>1.8L 4 Cilindros</p>
+                        <span class="valor">R$ 155.000</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="beneficios" id="beneficios">
+                <h2>Por que comprar conosco?</h2>
+                <ul class="beneficios-list">
+                    <li>✔ Variedade de modelos</li>
+                    <li>✔ Financiamento facilitado</li>
+                    <li>✔ Atendimento personalizado</li>
+                    <li>✔ Suporte 24h</li>
+                    <li>✔ Processo 100% online</li>
+                </ul>
+            </section>
+            <section class="depoimentos">
+                <h2>Veja os depoimentos de nossos clientes</h2>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>
+                    "Comprei meu carro aqui e a experiência foi incrível!" -
+                    Amanda Gruner.
+                </p>
+                <p>⭐⭐⭐⭐</p>
+                <p>"Atendimento excelente e entrega rápida." - João Biava.</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>
+                    "Recomendo a todos que buscam qualidade e confiança." -
+                    Vladimir Putin.
+                </p>
+                <p>⭐⭐⭐⭐</p>
+                <p>
+                    "Comprei o NSX recentemente, carro impecável e ótimo
+                    atendimento." - Ayrton Senna.
+                </p>
+            </section>
+
+            <section class="contato" id="contato">
+                <h2>Entre em contato conosco</h2>
+                <form>
+                    <label for="name">Nome:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        placeholder="Digite seu nome"
+                    />
+
+                    <label for="email">E-mail:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="Digite seu E-mail"
+                    />
+
+                    <label for="message">Mensagem:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        required
+                        placeholder="Digite o motivo de contato"
+                    ></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2025 Free Racers. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
